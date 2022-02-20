@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+@font-face {
+  font-family: 'Matrix';
+  src: url('/fonts/Matrix-MZ4P.ttf');
+}
+
+body {
+  margin: 0;
+  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  height: 100vh;
+  width: 100vw;
+}
+
+.Counter {
+  font-family: 'Orbitron', sans-serif;
+  /* font-family: 'Russo One', sans-serif; */
+  font-size: 90px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: rgb(3, 248, 3);
+  letter-spacing: 3px;
+}
+
+.txt-c {
+  text-align: center;
+}
+
+p {
+  margin: 10px;
+}
