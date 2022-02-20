@@ -38,4 +38,14 @@ body {
 
 p {
   margin: 10px;
+  position: relative;
+  transform: translateY(-50%);
+}
+
+.bg-black {
+  color: black;
+}
+
+.lower-Font {
+  font-size: 48px;
 }
