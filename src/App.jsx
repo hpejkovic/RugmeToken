@@ -21,8 +21,8 @@ function App() {
     let days = Math.ceil(count / 86400) % 86400;
 
     seconds = count % 60;
-    minutes = Math.ceil(count / 60) % 60;
-    hours = Math.ceil(count / 3600) % 3600;
+    minutes = Math.floor(count / 60) % 60;
+    hours = Math.floor(count / 3600) % 3600;
 
     return `${hours.toString().padStart(2, '0')}:${minutes
       .toString()
