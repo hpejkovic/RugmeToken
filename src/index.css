@@ -2,8 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
 
 @font-face {
-  font-family: 'Matrix';
-  src: url('/fonts/Matrix-MZ4P.ttf');
+  font-family: 'digital-7';
+  src: url('/fonts/digital-7.ttf');
 }
 
 body {
@@ -22,13 +22,14 @@ body {
 }
 
 .Counter {
-  font-family: 'Orbitron', sans-serif;
+  /* font-family: 'Orbitron', sans-serif; */
   /* font-family: 'Russo One', sans-serif; */
+  font-family: 'digital-7', sans-serif;
   font-size: 90px;
+  text-transform: uppercase;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: rgb(3, 248, 3);
-  letter-spacing: 3px;
 }
 
 .txt-c {
