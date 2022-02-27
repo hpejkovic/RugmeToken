@@ -21,6 +21,15 @@ body {
   width: 100vw;
 }
 
+.contractAddress {
+  color: rgb(3, 248, 3);
+  font-family: 'Russo One', sans-serif;
+  position: absolute;
+  font-size: 12px;
+  right: 10px;
+  top: 10px;
+}
+
 .Counter {
   /* font-family: 'Orbitron', sans-serif; */
   /* font-family: 'Russo One', sans-serif; */
