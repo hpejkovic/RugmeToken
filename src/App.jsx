@@ -51,15 +51,25 @@ function App() {
     let days = Math.ceil(count / 86400) % 86400;
     return `${days} day`;
   };
+
+  const openContractAddress = () => {};
   //setTimeout(IncrementTimer, 1000);
   return (
     <>
-      <p className="contractAddress">
-        0xE1eD692f34BEB30e887c3a9a64Bec1b7A73D5EF3
-      </p>
+      <nav>
+        <a
+          href="https://bscscan.com/address/0xE1eD692f34BEB30e887c3a9a64Bec1b7A73D5EF3"
+          className="contractAddress btn"
+          target="_blank"
+          onClick={openContractAddress}
+        >
+          Smart contract
+        </a>
+      </nav>
       <div className="Counter">
-        <p className="txt-c bg-black">Countdown to rug</p>
-        <p className="txt-c timer">
+        <p className="txt-c bg-black p">Countdown to</p>
+        <p className="txt-c bg-black p">rug</p>
+        <p className="txt-c timer p">
           {getTime()}
           <span className="lower-Font">{getSeconds()}</span>
         </p>
@@ -67,5 +77,5 @@ function App() {
     </>
   );
 }
-
+// 0xE1eD692f34BEB30e887c3a9a64Bec1b7A73D5EF3
 export default App;

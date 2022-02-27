@@ -6,6 +6,12 @@
   src: url('/fonts/digital-7.ttf');
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -16,39 +22,68 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: black;
   height: 100vh;
   width: 100vw;
+  background-color: black;
 }
 
 .contractAddress {
   color: rgb(3, 248, 3);
   font-family: 'Russo One', sans-serif;
-  position: absolute;
   font-size: 12px;
-  right: 10px;
-  top: 10px;
 }
 
 .Counter {
   /* font-family: 'Orbitron', sans-serif; */
   /* font-family: 'Russo One', sans-serif; */
   font-family: 'digital-7', sans-serif;
-  font-size: 90px;
+  font-size: 16px;
   text-transform: uppercase;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: rgb(3, 248, 3);
+  font-size: 60px;
+  transform: translateY(-50%);
+}
+
+.btn {
+  text-align: center;
+  background-color: transparent;
+  border: 2px solid rgb(3, 248, 3);
+  border-radius: 20px;
+  padding: 8px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background-color: rgb(3, 248, 3);
+  color: black;
+}
+
+.btn:active {
+  transform: scale(0.95);
 }
 
 .txt-c {
   text-align: center;
 }
 
-p {
-  margin: 10px;
+nav {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 10px;
+  left: 0px;
+}
+
+.p {
   position: relative;
-  transform: translateY(-50%);
+}
+
+p {
+  text-align: center;
 }
 
 .bg-black {
