@@ -18,12 +18,13 @@ function App() {
     let seconds = 0;
     let minutes = 0;
     let hours = 0;
-    const startDate = new Date(2022, 1, 18, 5, 0, 0, 0);
+    const startDate = new Date(2022, 1, 20, 21, 22, 31, 0);
     const currDate = new Date(Date.now());
 
+    console.log(startDate.toDateString());
     const timeDifference = Math.floor((currDate - startDate) / 1000);
 
-    //console.log(timeDifference);
+    console.log(timeDifference);
 
     let days = Math.floor(timeDifference / 86400) % 86400;
 
