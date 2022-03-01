@@ -58,12 +58,12 @@ function App() {
     <>
       <nav>
         <a
-          href="https://bscscan.com/address/0xE1eD692f34BEB30e887c3a9a64Bec1b7A73D5EF3"
+          href="https://pancakeswap.finance/swap?outputCurrency=0xE1eD692f34BEB30e887c3a9a64Bec1b7A73D5EF3"
           className="contractAddress btn"
           target="_blank"
           onClick={openContractAddress}
         >
-          C
+          PancakeSwap
         </a>
       </nav>
       <div className="Counter">
