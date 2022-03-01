@@ -31,6 +31,7 @@ body {
   color: rgb(3, 248, 3);
   font-family: 'Russo One', sans-serif;
   font-size: 12px;
+  margin-right: 10px;
 }
 
 .Counter {
@@ -71,8 +72,8 @@ body {
 nav {
   width: 100vw;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: flex-end;
+  align-items: flex-end;
   position: absolute;
   top: 10px;
   left: 0px;
