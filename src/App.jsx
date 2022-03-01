@@ -63,7 +63,7 @@ function App() {
           target="_blank"
           onClick={openContractAddress}
         >
-          Smart contract
+          C
         </a>
       </nav>
       <div className="Counter">
